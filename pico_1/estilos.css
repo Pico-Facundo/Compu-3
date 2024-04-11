@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 5px;
+	background: #C6DBDC;
+	font-family:Cambria, "Times New Roman";}
+
+header { 
+	height: 300px;
+	padding: 2px 0px 0px 2px;
+}
+
+ul {list-style-type:none;
+	padding-left: 20px;}
+
+.dato_de_foto{
+	display: flex;
+	align-items: flex-end;}
+
+.formacion_academica{
+	display: flex;}
+
+.trabajos {
+	width: 85%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;}
+
+main {padding: 5px 0px 0px 5px;}
+
+h1{background: #343EF0;
+	color: #FFFFFF;
+	font-size: 35px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+h2, h3 {
+	background: #343EF0;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family: Arial;
+	font-weight: bold;}
+
+h4 {
+	color:#090F7E;}
+
+footer {
+	color:#090F7E;
+	font-weight: lighter;
+	display: flex;
+	justify-content: center;}
