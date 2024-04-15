@@ -1,17 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
-* {margin: 5px;
+* {margin: 8px;
 	background: #C6DBDC;
 	font-family:Cambria, "Times New Roman";}
 
 header { 
 	height: 300px;
-	padding: 2px 0px 0px 2px;
+	padding: 2px 0px 20px 2px;
 }
 
 ul {list-style-type:none;
-	padding-left: 20px;}
+	padding-left: 5px;}
 
 .dato_de_foto{
 	display: flex;
@@ -21,26 +21,27 @@ ul {list-style-type:none;
 	display: flex;}
 
 .trabajos {
-	width: 85%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content:space-around;}
+	justify-content:space-around;
+	align-items: center;}
 
-main {padding: 5px 0px 0px 5px;}
+main {padding: 20px 0px 0px 10px;}
 
 h1{background: #343EF0;
 	color: #FFFFFF;
 	font-size: 35px;
 	font-family: Arial;
 	font-weight: bold;
-}
+	padding: 5px}
 
 h2, h3 {
 	background: #343EF0;
 	color: #FFFFFF;
 	font-size: 22px;
 	font-family: Arial;
-	font-weight: bold;}
+	font-weight: bold;
+	padding: 5px}
 
 h4 {
 	color:#090F7E;}
